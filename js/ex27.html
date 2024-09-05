@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>이중 반복문</title>
+    <script>
+        // 이중 반복문: 반복문 안에 반복문이 들어감
+        for(let i = 0; i < 5; i++){
+            console.log("i = " + i);
+            for(let j = 0; j < 5; j++){
+                console.log("  j = " + j);
+            }
+        }
+
+        // 구구단 출력하기
+        for(let i = 2; i < 10; i++){
+            console.log(i + '단');
+            for(let j = 1; j < 10; j++){
+                console.log(i + " X " + j + " = " + i*j);
+            }
+        }
+
+        // 연습문제
+        // 1. prompt함수를 통해 시작 단수와 끝 단수를 입력받고 구구단을 출력
+        let dan = prompt('단수를 입력하세요 ex) 3, 9')
+        const gugudan = dan.split(", ");
+        gugudan.sort((a, b) => a - b);
+        for(let i = gugudan[0]; i <= gugudan[1]; i++){
+            console.log(i + '단');
+            for(let j = 1; j < 10; j++){
+                console.log(i + " X " + j + " = " + i*j);
+            }
+        }
+</script>
+</head>
+<body>
+    
+</body>
+</html>

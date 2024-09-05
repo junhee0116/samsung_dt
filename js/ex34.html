@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>키-밸류 객체</title>
+    <script>
+        // Key - Value Objective = 객체
+        // Key는 반드시 문자열, Value는 다양한 타입(number, string, object, func)
+        // map, dictionary(key : value), JSON/XML
+        // 프론트엔드(html/css/js, react.js) <=> HTTP(JSON) <=> 백엔드(node.js)
+        let keyvalue = {
+            apple: 1000,
+            banana: 2000,
+            cherry: 3000
+        };
+        console.log(keyvalue['apple']);
+        console.log(keyvalue.apple);
+
+        let person = {
+            name : '홍길동',
+            action : () => {console.log('야호~');}
+        };
+        console.log(person.name);
+        person.action();
+
+
+        // 연습문제
+        // student KV객체를 선언하고, 이 학생의 국,영,수 성적을 각각 70, 80, 90으로 설정하고
+        // 합산과 평균을 내는 익명함수를 각각 sum, avr로 설정하고 익명함수를 통해 값을 출력
+        // 그리고 국영수 점수도 각각 출력
+        var student = {
+            국어: 70,
+            영어: 80,
+            수학: 90
+        };
+        const sum = function(dict) {
+            let hap = 0;
+            const keys = Object.keys(dict);
+            for (let i = 0; i < keys.length; i++) {
+                hap += dict[keys[i]];
+            }
+            return hap;
+        };
+
+        // 평균을 계산하는 함수
+        const avr = function(dict) {
+            let hap = 0;
+            const keys = Object.keys(dict);
+            for (let i = 0; i < keys.length; i++) { 
+                hap += dict[keys[i]];
+            }
+            const average = hap / keys.length; 
+            return average;
+        };
+
+        console.log('국어: ' + student['국어'] + '  영어: ' + student['영어'] + '  수학: ' + student['수학']);
+        console.log('합산: ' + sum(student) + '  평균: ' + avr(student));
+
+
+        // 강사님 풀이
+        var student = {
+            kor: 70,
+            eng: 80,
+            mat: 90,
+            // sum: (a, b, c) => {return a + b + c}
+            sum: (a, b, c) => a + b + c,
+            avr: (a, b, c) => (a + b + c) / 3
+        };
+        console.log(student.kor);
+        console.log(student.eng);
+        console.log(student.mat);
+        console.log(student.sum(student.kor, student.eng, student.mat));
+        console.log(student.avr(student.kor, student.eng, student.mat));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
+
+

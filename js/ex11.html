@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>조건문</title>
+    <script>
+        // 조건문: 조건식에 따라 선택적인 수행을 해주는 문장
+        //       : if문, switch case문
+
+        // if문 형식
+        // if (조건식) {
+        //      조건식이 true일 때 수행되는 수행문
+        // }    
+
+        // if(10 < 20){
+        //     document.write("10이 20보다 작음<br>");
+        // }
+        // if(10 == 20){
+        //     document.write("10이 20과 같음<br>");
+        // }   
+
+        // let str = '자바스크립트';
+        // if (str == '자바스크립트') {
+        //     document.write('자바스크립트와 같음<br>');
+        // }
+        // if (str === '자바스크립트') {
+        //     document.write('자바스크립트와 같음<br>');
+        // }
+
+
+        // 연습문제
+        // 1. 10이 2이 배수이면 '2의 배수입니다'라고 출력하시오.
+        if (10 % 2 == 0) {
+            document.write('2의 배수입니다<br>'); 
+        }
+        // 2. 10이 3의 배수이면 '3의 배수입니다'라고 출력하시오.
+        if (10 % 3 == 0) {
+            document.write('3의 배수입니다<br>');
+        }
+        // 3. prompt함수로 '홍길동'을 입력받고, 입력받은 문자열이 '홍길동'이면 '홍길동입니다'라고 출력하시오.
+        name = prompt('이름을 입력하세요')
+        if (name == '홍길동') {
+            document.write('홍길동입니다<br>');
+        }
+        // 4. prompt함수로 5자리 숫자를 문자열로 입력받고 이 안에 홀수의 갯수를 출력하시오.
+        var num = prompt('Ex) 12345');
+        var cnt = 0;
+        for(var i = 0; i < num.length; i++) {
+            if (num[i] % 2 != 0) {
+                cnt += 1;
+            }
+        }
+        document.write(cnt);
+
+        // 4가지 형식
+        // 1. 단일 if문
+        // 2. if else문
+        // 3. if else if문
+        // 4. 중첩 if문
+
+
+
+
+        //조건문 - switch문 =>  if else if문과 유사함.
+        //형식
+        //switch ( 정수값 ){
+        //      case 정수값1:
+        //           정수값1과 같으면 수행됨.
+        //           break;
+        //      case 정수값2:
+        //           정수값2와 같으면 수행됨.
+        //           break;
+        //      default:
+        //           그외의 값이면 수행됨.
+        //           break;
+        //}
+        let num = 10;
+        switch ( num ){
+            case 10:
+                console.log("10입니다.");
+                break;
+            case 20:
+                console.log("20입니다");
+                break;
+            default:
+                console.log("그외의 수");
+                break;
+        }
+
+        // 연습문제
+        // 1. 1부터 100사이의 랜덤수를 발생시켜 출력하고 이 수가 80 이상이면 '80 이상입니다', 60 이상이면 '60 이상입니다'
+        //    40 이상이면 '40 이상입니다' 그 외의 수이면 '그 외의 수입니다' 라고 출력하세요.
+        var num = Math.floor(Math.random() * 100) + 1;
+        if (num >= 80) {
+            document.write('80 이상입니다');
+        } else if (num >= 60) {
+            document.write('60 이상입니다');
+        } else if (num >= 40) {
+            document.write('40 이상입니다');
+        } else {
+            document.write('그 외의 수 입니다.')
+        }
+
+        // 2. 주사위(1~6)를 2개 던져서, 주사위 눈의 수 2개의 합을 구해서 출력하고
+        // 그 수가 홀수하고, "홀수입니다."
+        // 짝수이면 "짝수입니다."
+        
+        num3 = (Math.floor( Math.random() * 6 ) + 1 );
+        num4 = (Math.floor( Math.random() * 6 ) + 1 );
+        let num5 = num3 + num4;
+        
+        switch (true){
+            case num5 % 2 == 1:
+                console.log("홀수입니다.");
+                break;
+            case num5 % 2 == 0:
+                console.log("짝수입니다.");
+                break;
+        }
+
+        
+        //연습문제
+        //1부터 12사이의 랜덤수(Month)를 발생시켜 출력하고,
+        // 그 수가 3~5까지  "봄입니다."
+        // 6~8이면 "여름입니다."
+        // 9~11이면 "가을입니다."
+        // 12,1,2이면 "겨울입니다."라고 출력하시오.
+        let num = Math.floor(Math.random()* 12 +1);
+        console.log(num);
+        switch (true){
+            case (num >= 3 && num <=5):
+                console.log("봄입니다.");
+                break;
+            case (num >= 6 && num <=8):
+                console.log("여름입니다.");
+                break;
+            case (num >= 9 && num <=11):
+                console.log("여름입니다.");
+                break;
+            case (num == 12 || num == 1 || num == 2 ):
+                console.log("겨울입니다.");
+                break;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
