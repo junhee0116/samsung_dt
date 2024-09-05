@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>알림 아이콘</title>
+    <style>
+        .notification-icon {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .notification-badge {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: red;
+            color: white;
+            padding: 5px;
+            border-radius: 50%;
+            font-size: 12px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="notification-icon">
+        <img src="bell-icon.jpg" alt="알림 아이콘" width="40" height="40">
+        <div class="notification-badge" id="notificationBadge">0</div>
+    </div>
+
+    <script>
+        // 알림 배지 업데이트 함수
+        function updateNotificationBadge(count) {
+            const badge = document.getElementById('notificationBadge');
+            if (count > 0) {
+                badge.textContent = count;
+                badge.style.display = 'block';
+            } else {
+                badge.style.display = 'none';
+            }
+        }
+
+        // WebSocket 연결 설정
+        const socket = new WebSocket('ws://localhost:3000');
+
+        socket.onopen = () => {
+            console.log('서버와 연결되었습니다.');
+        };
+
+        socket.onmessage = (event) => {
+            const data = JSON.parse(event.data);
+            updateNotificationBadge(data.newNotificationCount);
+        };
+
+        socket.onclose = () => {
+            console.log('서버와의 연결이 종료되었습니다.');
+        };
+
+        socket.onerror = (error) => {
+            console.error('WebSocket 오류 발생:', error);
+        };
+    </script>
+
+</body>
+</html>
