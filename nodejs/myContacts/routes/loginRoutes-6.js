@@ -1,0 +1,16 @@
+const express = require("express");
+const router = express.Router();
+const {
+    getLogin,
+    loginUser,
+    getRegister,
+    registerUser,
+    logout
+} = require("../controllers/loginController-6");
+
+
+router.route("/").get(getLogin).post(loginUser);
+router.route("/register").get(getRegister).post(registerUser);
+router.route("/logout").get(logout);
+
+module.exports = router;
