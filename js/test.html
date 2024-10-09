@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>객체 값 출력</title>
+</head>
+<body>
+
+    <button id="myButton">객체 값 출력</button>
+    <div id="output"></div> <!-- 값을 출력할 영역 -->
+
+    <script>
+        const myObject = {
+            name: '홍길동',
+            age: 30,
+            job: '개발자'
+        };
+
+        const button = document.getElementById('myButton');
+        const output = document.getElementById('output');
+
+        button.addEventListener('click', function() {
+            output.innerHTML = ''; // 기존 내용을 초기화
+            
+            // 객체의 모든 키-값 쌍을 순회
+            for (const key in myObject) {
+                if (myObject.hasOwnProperty(key)) {
+                    output.innerHTML += `<p>${key}: ${myObject[key]}</p>`;
+                }
+            }
+        });
+    </script>

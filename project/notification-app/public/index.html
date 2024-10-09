@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real-time Notifications</title>
+  <style>
+    #notifications {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-top: 20px;
+      max-width: 600px;
+    }
+    .notification {
+      border-bottom: 1px solid #ddd;
+      padding: 5px 0;
+    }
+    .notification:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Real-time Notifications</h1>
+  <div id="notifications"></div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+
+    socket.on('newRecord', (records) => {
+      const notifications = document.getElementById('notifications');
+      records.forEach(record => {
+        const notification = document.createElement('div');
+        notification.className = 'notification';
+        notification.innerHTML = `
+          <strong>ID:</strong> ${record.id}<br>
+          <strong>Message:</strong> ${record.message}<br>
+          <strong>Created At:</strong> ${new Date(record.createdAt).toLocaleString()}
+        `;
+        notifications.appendChild(notification);
+      });
+    });
+  </script>
+</body>
+</html>

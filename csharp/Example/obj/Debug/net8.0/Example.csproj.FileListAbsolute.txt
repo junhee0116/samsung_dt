@@ -1,0 +1,14 @@
+D:\csharp\Example\bin\Debug\net8.0\Example.exe
+D:\csharp\Example\bin\Debug\net8.0\Example.deps.json
+D:\csharp\Example\bin\Debug\net8.0\Example.runtimeconfig.json
+D:\csharp\Example\bin\Debug\net8.0\Example.dll
+D:\csharp\Example\bin\Debug\net8.0\Example.pdb
+D:\csharp\Example\obj\Debug\net8.0\Example.GeneratedMSBuildEditorConfig.editorconfig
+D:\csharp\Example\obj\Debug\net8.0\Example.AssemblyInfoInputs.cache
+D:\csharp\Example\obj\Debug\net8.0\Example.AssemblyInfo.cs
+D:\csharp\Example\obj\Debug\net8.0\Example.csproj.CoreCompileInputs.cache
+D:\csharp\Example\obj\Debug\net8.0\Example.dll
+D:\csharp\Example\obj\Debug\net8.0\refint\Example.dll
+D:\csharp\Example\obj\Debug\net8.0\Example.pdb
+D:\csharp\Example\obj\Debug\net8.0\Example.genruntimeconfig.cache
+D:\csharp\Example\obj\Debug\net8.0\ref\Example.dll

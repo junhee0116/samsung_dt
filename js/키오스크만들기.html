@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>키오스크 콘솔 프로그램</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id = "wrap" class = "container-fluid p-4">
+        <div class = "row">
+            <div class = "container-fluid bg-white" style = "max-width: 900px; border-radius: 10px;">
+                <div class = "row">
+                    <div class = "col-12">
+                        <h1 class = "text-center mb-5 mt-5 p-4" style = "border: 1px solid black;">키오스크 콘솔 프로그램</h1>
+                    </div>
+                    <div class = "button row    ">
+                        <div class = "col-2">
+                            <button type = "button" class="btn btn-secondary" id = "input">상품입력</button>
+                        </div>
+                        <div class = "col-2">
+                            <button type="button" class="btn btn-secondary" id = "print">전체출력</button>
+                        </div>
+                        <div class = "col-2">
+                            <button type="button" class="btn btn-secondary">검색</button>
+                        </div>
+                        <div class = "col-2">
+                            <button type="button" class="btn btn-secondary">수정</button>
+                        </div>
+                        <div class = "col-2">
+                            <button type="button" class="btn btn-secondary">삭제</button>
+                        </div>
+                        <div class = "col-2 mb-5">
+                            <button type="button" class="btn btn-secondary">종료</button>
+                        </div>
+                    </div>
+                    <div class = "container mt-5">
+                        <div id = "alert-container" class = "alert-container"></div>
+                    </div>
+                    <div id = "output"></div>
+                </div>
+            </div>
+        </div>
+
+    <script>
+        const output = document.getElementById("output")
+
+        document.getElementById('input').addEventListener('click', function() {
+            const name = prompt('상품이름: ');
+            const price = prompt('상품가격: ');
+            const image = prompt('이미지 이름');
+            const product = {};
+
+            if (name && price && image) {
+                product["name"] = name;
+                product["price"] = price;
+                product["image"] = image;
+
+                output.innerHTML = `상품 이름: ${product.name} <br> 상품 가격: ${product.price} <br> 이미지 이름: ${product.image} <br> 상품 입력이 완료되었습니다`;
+
+                setTimeout(function() {
+                    output.innerHtml = '';
+                }, 5000);    
+            } else {
+                var alertElement = document.createElement('div');
+                alertElement.className = "alert alert-danger";
+                alertElement.role = 'alert';
+                alertElement.innerHTML = '';
+
+                // 기존 Alert가 있으면 제거
+                var alertContainer = document.getElementById('alert-container');
+                alertContainer.innerHTML = '입력되지 않은 값이 있습니다'; // 모든 내용을 지웁니다.
+                
+                // 새로운 Alert를 추가
+                alertContainer.appendChild(alertElement);
+
+                // 2초 후 Alert 자동으로 사라지게 하기 (선택 사항)
+                setTimeout(function() {
+                    alertElement.remove();
+                }, 2000);
+            }
+        });
+    </script>
+
+    <script>
+            document.getElementById('print').addEventListener('click', function() {
+            
+            output.innerHTML = '';
+    
+            for (const key in product) {
+                if (product.hasOwnProperty(key)) {
+                    output.innerHTML += `${key}: ${product[key]}`;
+                }
+            }
+        });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

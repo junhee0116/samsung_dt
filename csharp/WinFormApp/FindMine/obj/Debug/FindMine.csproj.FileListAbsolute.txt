@@ -1,0 +1,10 @@
+D:\csharp\WinFormApp\FindMine\bin\Debug\FindMine.exe.config
+D:\csharp\WinFormApp\FindMine\bin\Debug\FindMine.exe
+D:\csharp\WinFormApp\FindMine\bin\Debug\FindMine.pdb
+D:\csharp\WinFormApp\FindMine\obj\Debug\FindMine.csproj.AssemblyReference.cache
+D:\csharp\WinFormApp\FindMine\obj\Debug\FindMine.Form1.resources
+D:\csharp\WinFormApp\FindMine\obj\Debug\FindMine.Properties.Resources.resources
+D:\csharp\WinFormApp\FindMine\obj\Debug\FindMine.csproj.GenerateResource.cache
+D:\csharp\WinFormApp\FindMine\obj\Debug\FindMine.csproj.CoreCompileInputs.cache
+D:\csharp\WinFormApp\FindMine\obj\Debug\FindMine.exe
+D:\csharp\WinFormApp\FindMine\obj\Debug\FindMine.pdb

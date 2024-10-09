@@ -1,0 +1,10 @@
+D:\csharp\WinFormApp\WindowsSignIn\bin\Debug\WindowsSignIn.exe.config
+D:\csharp\WinFormApp\WindowsSignIn\bin\Debug\WindowsSignIn.exe
+D:\csharp\WinFormApp\WindowsSignIn\bin\Debug\WindowsSignIn.pdb
+D:\csharp\WinFormApp\WindowsSignIn\obj\Debug\WindowsSignIn.csproj.AssemblyReference.cache
+D:\csharp\WinFormApp\WindowsSignIn\obj\Debug\WindowsSignIn.FormLogin.resources
+D:\csharp\WinFormApp\WindowsSignIn\obj\Debug\WindowsSignIn.Properties.Resources.resources
+D:\csharp\WinFormApp\WindowsSignIn\obj\Debug\WindowsSignIn.csproj.GenerateResource.cache
+D:\csharp\WinFormApp\WindowsSignIn\obj\Debug\WindowsSignIn.csproj.CoreCompileInputs.cache
+D:\csharp\WinFormApp\WindowsSignIn\obj\Debug\WindowsSignIn.exe
+D:\csharp\WinFormApp\WindowsSignIn\obj\Debug\WindowsSignIn.pdb

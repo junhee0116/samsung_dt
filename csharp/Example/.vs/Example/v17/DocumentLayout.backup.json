@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\csharp\\Example\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D75FB6BA-AC46-4D58-B989-E965908AB712}|Example.csproj|d:\\csharp\\example\\ex07.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75FB6BA-AC46-4D58-B989-E965908AB712}|Example.csproj|solutionrelative:ex07.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75FB6BA-AC46-4D58-B989-E965908AB712}|Example.csproj|d:\\csharp\\example\\ex06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75FB6BA-AC46-4D58-B989-E965908AB712}|Example.csproj|solutionrelative:ex06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75FB6BA-AC46-4D58-B989-E965908AB712}|Example.csproj|d:\\csharp\\example\\ex05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75FB6BA-AC46-4D58-B989-E965908AB712}|Example.csproj|solutionrelative:ex05.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75FB6BA-AC46-4D58-B989-E965908AB712}|Example.csproj|d:\\csharp\\example\\ex04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75FB6BA-AC46-4D58-B989-E965908AB712}|Example.csproj|solutionrelative:ex04.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75FB6BA-AC46-4D58-B989-E965908AB712}|Example.csproj|d:\\csharp\\example\\ex03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75FB6BA-AC46-4D58-B989-E965908AB712}|Example.csproj|solutionrelative:ex03.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75FB6BA-AC46-4D58-B989-E965908AB712}|Example.csproj|d:\\csharp\\example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75FB6BA-AC46-4D58-B989-E965908AB712}|Example.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75FB6BA-AC46-4D58-B989-E965908AB712}|Example.csproj|d:\\csharp\\example\\ex02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75FB6BA-AC46-4D58-B989-E965908AB712}|Example.csproj|solutionrelative:ex02.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D75FB6BA-AC46-4D58-B989-E965908AB712}|Example.csproj|d:\\csharp\\example\\ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D75FB6BA-AC46-4D58-B989-E965908AB712}|Example.csproj|solutionrelative:ex01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ex07.cs",
+              "DocumentMoniker": "D:\\csharp\\Example\\ex07.cs",
+              "RelativeDocumentMoniker": "ex07.cs",
+              "ToolTip": "D:\\csharp\\Example\\ex07.cs",
+              "RelativeToolTip": "ex07.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAgwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T05:47:15.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ex06.cs",
+              "DocumentMoniker": "D:\\csharp\\Example\\ex06.cs",
+              "RelativeDocumentMoniker": "ex06.cs",
+              "ToolTip": "D:\\csharp\\Example\\ex06.cs",
+              "RelativeToolTip": "ex06.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T05:48:47.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ex05.cs",
+              "DocumentMoniker": "D:\\csharp\\Example\\ex05.cs",
+              "RelativeDocumentMoniker": "ex05.cs",
+              "ToolTip": "D:\\csharp\\Example\\ex05.cs",
+              "RelativeToolTip": "ex05.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:07:54.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ex04.cs",
+              "DocumentMoniker": "D:\\csharp\\Example\\ex04.cs",
+              "RelativeDocumentMoniker": "ex04.cs",
+              "ToolTip": "D:\\csharp\\Example\\ex04.cs",
+              "RelativeToolTip": "ex04.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwEgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:42:43.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ex03.cs",
+              "DocumentMoniker": "D:\\csharp\\Example\\ex03.cs",
+              "RelativeDocumentMoniker": "ex03.cs",
+              "ToolTip": "D:\\csharp\\Example\\ex03.cs",
+              "RelativeToolTip": "ex03.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwCAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T02:48:35.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ex02.cs",
+              "DocumentMoniker": "D:\\csharp\\Example\\ex02.cs",
+              "RelativeDocumentMoniker": "ex02.cs",
+              "ToolTip": "D:\\csharp\\Example\\ex02.cs",
+              "RelativeToolTip": "ex02.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAgwF0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T01:06:32.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ex01.cs",
+              "DocumentMoniker": "D:\\csharp\\Example\\ex01.cs",
+              "RelativeDocumentMoniker": "ex01.cs",
+              "ToolTip": "D:\\csharp\\Example\\ex01.cs",
+              "RelativeToolTip": "ex01.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T00:15:06.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\csharp\\Example\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\csharp\\Example\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T00:05:12.682Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

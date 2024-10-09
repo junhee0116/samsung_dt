@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ex01.cs" />
+    <Compile Remove="ex02.cs" />
+    <Compile Remove="ex03.cs" />
+    <Compile Remove="ex04.cs" />
+    <Compile Remove="ex05.cs" />
+    <Compile Remove="ex06.cs" />
+    <Compile Remove="ex07.cs" />
+    <Compile Remove="ex09.cs" />
+    <Compile Remove="ex10.cs" />
+    <Compile Remove="ex11.cs" />
+    <Compile Remove="ex12.cs" />
+    <Compile Remove="ex13.cs" />
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ex01.cs" />
+    <None Include="ex02.cs" />
+    <None Include="ex04.cs" />
+    <None Include="ex05.cs" />
+    <None Include="ex06.cs" />
+    <None Include="ex07.cs" />
+    <None Include="ex09.cs" />
+    <None Include="ex10.cs" />
+    <None Include="ex11.cs" />
+    <None Include="ex12.cs" />
+    <None Include="ex13.cs" />
+    <None Include="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ex03.cs" />
+  </ItemGroup>
+
+</Project>

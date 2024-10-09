@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Alert Example</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .alert-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="mt-5">중복 확인</h1>
+        <button id="check-duplicate" class="btn btn-primary mt-3">중복 확인</button>
+
+        <!-- Alert를 표시할 위치 -->
+        <div id="alert-container" class="alert-container"></div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        document.getElementById('check-duplicate').addEventListener('click', function() {
+            // Alert 메시지를 생성
+            var alertElement = document.createElement('div');
+            alertElement.className = 'alert alert-danger';
+            alertElement.role = 'alert';
+            alertElement.innerHTML = '중복된 아이디가 있습니다.';
+
+            // 기존 Alert가 있으면 제거
+            var alertContainer = document.getElementById('alert-container');
+            alertContainer.innerHTML = ''; // 모든 내용을 지웁니다.
+            
+            // 새로운 Alert를 추가
+            alertContainer.appendChild(alertElement);
+
+            // 3초 후 Alert 자동으로 사라지게 하기 (선택 사항)
+            setTimeout(function() {
+                alertElement.remove();
+            }, 3000);
+        });
+    </script>
+
+</body>
+</html>

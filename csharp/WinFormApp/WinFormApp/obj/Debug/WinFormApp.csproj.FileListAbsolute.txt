@@ -1,0 +1,10 @@
+D:\csharp\WinFormApp\WinFormApp\bin\Debug\WinFormApp.exe.config
+D:\csharp\WinFormApp\WinFormApp\bin\Debug\WinFormApp.exe
+D:\csharp\WinFormApp\WinFormApp\bin\Debug\WinFormApp.pdb
+D:\csharp\WinFormApp\WinFormApp\obj\Debug\WinFormApp.csproj.AssemblyReference.cache
+D:\csharp\WinFormApp\WinFormApp\obj\Debug\WinFormApp.Form1.resources
+D:\csharp\WinFormApp\WinFormApp\obj\Debug\WinFormApp.Properties.Resources.resources
+D:\csharp\WinFormApp\WinFormApp\obj\Debug\WinFormApp.csproj.GenerateResource.cache
+D:\csharp\WinFormApp\WinFormApp\obj\Debug\WinFormApp.csproj.CoreCompileInputs.cache
+D:\csharp\WinFormApp\WinFormApp\obj\Debug\WinFormApp.exe
+D:\csharp\WinFormApp\WinFormApp\obj\Debug\WinFormApp.pdb

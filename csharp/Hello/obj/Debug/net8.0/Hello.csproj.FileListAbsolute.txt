@@ -1,0 +1,14 @@
+D:\csharp\Hello\bin\Debug\net8.0\Hello.exe
+D:\csharp\Hello\bin\Debug\net8.0\Hello.deps.json
+D:\csharp\Hello\bin\Debug\net8.0\Hello.runtimeconfig.json
+D:\csharp\Hello\bin\Debug\net8.0\Hello.dll
+D:\csharp\Hello\bin\Debug\net8.0\Hello.pdb
+D:\csharp\Hello\obj\Debug\net8.0\Hello.GeneratedMSBuildEditorConfig.editorconfig
+D:\csharp\Hello\obj\Debug\net8.0\Hello.AssemblyInfoInputs.cache
+D:\csharp\Hello\obj\Debug\net8.0\Hello.AssemblyInfo.cs
+D:\csharp\Hello\obj\Debug\net8.0\Hello.csproj.CoreCompileInputs.cache
+D:\csharp\Hello\obj\Debug\net8.0\Hello.dll
+D:\csharp\Hello\obj\Debug\net8.0\refint\Hello.dll
+D:\csharp\Hello\obj\Debug\net8.0\Hello.pdb
+D:\csharp\Hello\obj\Debug\net8.0\Hello.genruntimeconfig.cache
+D:\csharp\Hello\obj\Debug\net8.0\ref\Hello.dll

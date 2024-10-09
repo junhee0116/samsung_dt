@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>2차 배열</title>
+    <script>
+        // 1차 배열
+        let nums = [10, 20, 30];
+        // 2차 배열
+        var nums2D = [
+                        [10, 20, 30],
+                        [40, 50, 60],
+                        [70, 80, 90]
+                     ];
+
+        // 행 인덱스, 열 인덱스
+        console.log(nums2D[0][0]);
+        console.log(nums2D[2][1]);
+
+        // nums2D.length : 행의 갯수
+        // nums2D[0].length : 열의 갯수 
+        for(let i = 0; i < nums2D.length; i++){
+            for(let j = 0; j < nums2D[0].length; j++){
+                console.log(nums2D[i][j]);
+            }
+        }
+
+        // 연습문제
+        // 1. nums2D의 모든 요소에서 최대값을 출력
+        console.log('1.');
+        var nums2D = [
+                        [10, 20, 30],
+                        [40, 50, 60],
+                        [70, 80, 90]
+                     ];
+        var num = [];
+        for(i = 0; i < nums2D.length; i++){
+            for(j = 0; j < nums2D[0].length; j++){
+                num.push(nums2D[i][j]);
+            }
+        }
+        console.log(Math.max(...num));
+        console.log('-------');
+
+
+        // 2. nums2D의 모든 요소의 합을 출력
+        console.log('2.');
+        var nums2D = [
+                        [10, 20, 30],
+                        [40, 50, 60],
+                        [70, 80, 90]
+                     ];
+        var sum = 0;
+        for(let i = 0; i < nums2D.length; i++){
+            for(let j = 0; j < nums2D[0].length; j++){
+                sum += nums2D[i][j];
+            }
+        }
+        console.log(sum);
+        console.log('-------');
+
+        
+        // 3. 영어점수가 가장 높은 학생의 이름을 출력 [학번, 이름, 영어점수, 나이]
+        console.log('3.')
+        let students = [
+                            [1, '홍길동', 70, 20],
+                            [2, '변사또', 60, 30],
+                            [3, '사임당', 50, 40],
+                            [4, '김진사', 90, 50],
+                        ];
+        let maxscore = students[0][2];
+        let topstudent = students[0][1];
+        for(i = 0; i < students.length; i++){
+            if (maxscore < students[i][2]){
+                maxscore = students[i][2];
+                topstudent = students[i][1];
+            }
+        }
+        console.log(topstudent);
+        console.log('-------');
+
+        
+        // 4. 전체 학생의 평균 나이를 출력. 소수점 제거
+        console.log('4.')
+        var sum = 0;
+        for(i = 0; i < students.length; i++){
+            sum += students[i][3];
+        }
+        console.log(sum / students.length);
+        console.log('-------');
+
+
+        // 5. 영어점수가 가장 높은 학생부터 학생이름과 영어점수를 출력
+        console.log('5.')
+        students.sort((a, b) => b[2] - a[2]);
+        console.log(students);
+        console.log('-------');
+
+
+        // 6. 배열 사용, 로또 번호 6개(1 ~ 45)를 추첨하되 중복된 수를 추첨하면,
+        //    재추첨하는 로직을 넣고 로또 번호 6개를 출력
+        let lottoNums = [0, 0, 0, 0, 0, 0];
+        loop1:
+        for(let i = 0; i < 6; i++){
+            let randomNum = parseInt(Math.random() * 45 + 1);
+            if (randomNum in lottoNums){
+                i--;
+                continue loop1;
+            }
+            lottoNums[i] = randomNum;
+        }
+        console.log(lottoNums);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

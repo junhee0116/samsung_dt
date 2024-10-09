@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>flex로 시멘틱태그 만들기</title>
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+        }
+        #wrap {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            min-width: 760px;
+            max-width: 1080px;
+            margin: 20px;
+        }
+        #header {
+            background-color: purple;
+            text-align: center;
+            width: 100%;
+            height: 30px;
+            color: white;
+            line-height: 30px;
+            border: 1px solid black;
+        }
+        #nav {
+            background-color: green;
+            text-align: center;
+            width: 100%;
+            height: 30px;
+            color: white;
+            line-height: 30px;
+            border: 1px solid black;
+            border-top: 0;
+        }
+        #main {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            height:300px;
+            border: 1px solid black;
+            border-top: 0;
+        }
+        #section {
+            background-color: rgb(30, 110, 134);
+            text-align: center;
+            width: 70%;
+            color: white;
+            line-height: 300px;
+            border-right: 1px solid black;
+        }
+        #aside {
+            background-color: rgb(207, 207, 30);
+            text-align: center;
+            width: 30%;
+            color: white;
+            line-height: 300px;
+
+        }
+        #footer {
+            background-color: brown;
+            text-align: center;
+            width: 100%;
+            height: 30px;
+            color: white;
+            line-height: 30px;
+            border: 1px solid black;
+            border-top: 0;
+        }
+      </style>
+</head>
+<body>
+    <div id = "wrap">
+        <div class = "box" id = "header">Header</div>
+        <div class = "box" id = "nav">Nav</div>
+        <div class = "box" id = "main">
+          <div class = "box" id = "section">Section</div>
+          <div class = "box" id = "aside">Aside</div>
+        </div>
+        <div class = "box" id = "footer">Footer</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>함수 function</title>
+    <script>
+        // 함수: 코드들을 기능 단위로 묶어놓은 것
+        // 용도
+        // 1. 코드의 재사용 - 코드 중복 ㅔㅈ거
+        // 2. 코드뭉치에 이름을 붙일 수 있다.
+
+        // 함수의 4가지 형식
+        // 1. 매개변수 X 반환값 X
+        // 선언부
+        function func1(){
+
+        }
+        // 호출부
+        func1();
+
+        // 2. 매개변수 O 반환값 X
+        // 3. 매개변수 X 반환값 O
+        // 4. 매개변수 O 반환값 O
+
+        // return: 함수를 탈출
+        // break: 반복문을 탈출
+
+        // 연습문제
+        // 1. 매개변수가 2개 있고, 반환값이 있는 add라는 이름의 함수를 선언하고,
+        //    매개변수는 num1, num2 반환값은 num1 + num2의 합산결과이다.
+        function add(num1, num2){
+            return num1 + num2;
+        }
+
+        console.log(add(10, 20));
+        // 2. 매개변수가 2개 있고, 반환값이 있는 max라는 이름의 함수를 선언하고,
+        //    반환값은 매개변수 2개 중 큰값을 반환한다.
+        //    max 함수를 선언하고 호출해서 결과값을 출력
+        function max(a, b){
+            if(a >= b){
+                return a
+            }
+            else{
+                return b
+            }
+        }
+
+        console.log(max(10, 20));
+
+        // 3. 매개변수가 1개 있고, 반환값이 있는 vendingmachine이라는 함수를 선언하고,
+        //    매개변수로 1000을 입력하면 반환값으로 콜라를 반환하고
+        //    2000원을 입력하면 이온음료 반환
+        //    3000원을 입력하면 햄버거를 반환하는 함수를 작성
+        function vendingmachine(price){
+            if(price == 1000){
+                return '콜라'
+            }
+            else if(price == 2000){
+                return '이온음료'
+            }
+            else if(price == 3000){
+                return '햄버거'
+            }
+        }
+
+        console.log(vendingmachine(2000));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
