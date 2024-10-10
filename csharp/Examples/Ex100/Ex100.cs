@@ -1091,17 +1091,80 @@ namespace Examples.Ex100 {
 
             // ex78.
             List<string> input = new List<string>();
+            List<int> result = new List<int>();
             int i = 0;
 
-            while (input[i] == "=") {
+            while(input[i] == "=") {
                 input[i] = Console.ReadLine();
 
-                if(i %  == 0) {
-                    if(input[i - 1] == "+") {
-
+                if(i % 2 != 0) {
+                    if(input[i] == "+") {
+                        result[i - 1] = int.Parse(input[i - 1]) + int.Parse(input[i + 1]);
+                    } else if(input[i] == "-") {
+                        result[i - 1] = int.Parse(input[i - 1]) - int.Parse(input[i + 1]);
+                    } else if(input[i] == "*") {
+                        result[i - 1] = int.Parse(input[i - 1]) * int.Parse(input[i + 1]);
+                    } else if(input[i] == "/") {
+                        if(int.Parse(input[i + 1]) == 0) {
+                            Console.WriteLine("Error");
+                            return;
+                        } else {
+                            result[i - 1] = int.Parse(input[i - 1]) * int.Parse(input[i + 1]);
+                        }
                     }
                 }
+                i++;
             }
+
+
+
+
+
+            // ex81.
+            //int[] input = new int[5];
+
+            //for (int i = 0; i < 5; i++) {
+            //    input[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //Array.Sort(input);
+
+            //Console.WriteLine(input[input.Length - 1]);
+            //Console.WriteLine(input[0]);
+
+
+
+
+            // ex82.
+            //string[] input = Console.ReadLine().Split();
+
+            //int num1 = int.Parse(input[0]);
+            //int num2 = int.Parse(input[1]);
+
+            //for (int i = num1; i <= num2; i++) {
+            //    for (int j = 1; j <= 9; j++) {
+            //        Console.WriteLine($"{i} * {j} = {i * j}");
+            //    }
+            //}
+
+
+
+
+            // ex83.
+            //int n = int.Parse(Console.ReadLine());
+
+            //for (int i = 1; i <= n; i++) {
+            //    Console.WriteLine(String.Concat(Enumerable.Repeat("*", i)));
+            //}
+
+
+
+            // ex84.
+            //int n = int.Parse(Console.ReadLine());
+
+            //for (int i = n; i > 0; i--) {
+            //    Console.WriteLine(String.Concat(Enumerable.Repeat("*", i)));
+            //}
         }
     }
 }
