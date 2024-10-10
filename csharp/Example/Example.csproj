@@ -15,6 +15,7 @@
     <Compile Remove="ex05.cs" />
     <Compile Remove="ex06.cs" />
     <Compile Remove="ex07.cs" />
+    <Compile Remove="ex08.cs" />
     <Compile Remove="ex09.cs" />
     <Compile Remove="ex10.cs" />
     <Compile Remove="ex11.cs" />
@@ -40,6 +41,10 @@
 
   <ItemGroup>
     <None Include="ex03.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ex08.cs" />
   </ItemGroup>
 
 </Project>

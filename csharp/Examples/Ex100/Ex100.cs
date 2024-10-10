@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.ComponentModel.DataAnnotations;
+using System.Data;
 using System.Runtime.Intrinsics.X86;
 using System.Threading.Tasks.Sources;
 
@@ -717,59 +718,389 @@ namespace Examples.Ex100 {
 
 
             // ex59.
-            Random random = new Random();
+            //Random random = new Random();
 
+            //int i = 0;
+            //int lotto_count = 0;
+            //int[] lotto = new int[7];
+            //int[] numbers = new int[6];
+
+            //while (i < lotto.Length) {
+            //    if (i == 0) {
+            //        lotto[i] = random.Next(1, 46);
+            //        i++;
+            //        continue;
+            //    }
+
+            //    var value = random.Next(1, 46);
+
+            //    // 중복 제거
+            //    if (lotto.Contains(value)) {
+            //        continue;
+            //    } else {
+            //        lotto[i] = value;
+            //    }
+
+            //    i++;
+            //}
+
+            //// 값 입력
+            //for(int j = 0; j < numbers.Length; j++) {
+            //    numbers[j] = int.Parse(Console.ReadLine());
+            //}
+
+            //int[] slicedLotto = lotto.Skip(0).Take(6).ToArray();
+
+            //for (int j = 0; j < numbers.Length; j++) {
+            //    if(slicedLotto.Contains(numbers[j])) {
+            //        lotto_count += 1;
+            //    }
+            //}
+
+            //if(lotto_count == 6) {
+            //    Console.WriteLine("1등");
+            //} else if(lotto_count == 5) {
+            //    if(numbers.Contains(lotto[7])) {
+            //        Console.WriteLine("2등");
+            //    } else {
+            //        Console.WriteLine("3등");
+            //    }
+            //} else if(lotto_count == 4) {
+            //    Console.WriteLine("4등");
+            //} else if(lotto_count == 3) {
+            //    Console.WriteLine("5등");
+            //} else {
+            //    Console.WriteLine("꽝!");
+            //}
+
+
+            //// ex60.
+            //int[] heights = new int[3];
+
+            //for(int i = 0; i < heights.Length; i++) {
+            //    int input = int.Parse(Console.ReadLine());
+
+            //    heights[i] = input;
+            //}
+
+            //for(int i = 0; i < heights.Length; i++) {
+            //    if(heights[i] < 170) {
+            //        Console.WriteLine($"CRASH {heights[i]}");
+            //        return;
+            //    }
+            //}
+
+
+
+            // ex61.
+            //string[] input = new string[3];
+
+            //for(int i = 0; i < 3; i++) {
+            //    input[i] = Console.ReadLine();
+            //}
+
+            //switch(input[1]) {
+            //    case "+":
+            //        Console.WriteLine(int.Parse(input[0]) + int.Parse(input[2]));
+            //        break;
+            //    case "-":
+            //        Console.WriteLine(int.Parse(input[0]) - int.Parse(input[2]));
+            //        break;
+            //    case "*":
+            //        Console.WriteLine(int.Parse(input[0]) * int.Parse(input[2]));
+            //        break;
+            //    case "/":
+            //        if(int.Parse(input[2]) == 0) {
+            //            Console.WriteLine("Error");
+            //            return;
+            //        }
+            //        Console.WriteLine(String.Format("{0:0.00}", int.Parse(input[0]) / int.Parse(input[2])));
+            //        break;
+            //}
+
+
+
+            // ex62.
+            //int[] input = new int[3];
+
+            //for(int i = 0; i < input.Length; i++) {
+            //    input[i] = int.Parse(Console.ReadLine());
+
+            //    if(i == 0) {
+            //        if (input[0] <= 0 || input[0] > 3) {
+            //            Console.WriteLine("Error");
+            //            return;
+            //        }
+            //    }
+
+            //    if (i == 1) {
+            //        if (input[1] <= 0 || input[1] > 20) {
+            //            Console.WriteLine("Error");
+            //            return;
+            //        }
+            //    }
+
+            //    if (i == 2) {
+            //        if (input[2] <= 0 || input[2] > 999) {
+            //            Console.WriteLine("Error");
+            //            return;
+            //        }
+            //    }
+            //}
+
+            //// 자릿수 확보 후 출력
+            //Console.Write(input[0]);
+            //Console.Write("{0:D2}", input[1]);
+            //Console.WriteLine("{0:D3}", input[2]);
+
+
+
+            // ex63.
+            //int day = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine(day * 24);
+
+
+
+            // ex64.
+            //int num1 = int.Parse(Console.ReadLine());
+            //int num2 = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine(num1 % num2);
+
+
+
+            // ex65.
+            //int num = int.Parse(Console.ReadLine());
+
+            //if(num <= 0 || num > 10) {
+            //    Console.WriteLine("Error");
+            //    return;
+            //}
+
+            //for(int i = 1; i <= num; i++) {
+            //    if(i % 3 == 0) {
+            //        Console.Write("X" + " ");
+            //    } else {
+            //        Console.Write(i + " ");
+            //    }
+            //}
+
+
+
+            // ex66.
+            //int num = int.Parse(Console.ReadLine());
+            //int sum = 0;
+            //int i = 1;
+
+            //if(num > 100000000 || num <= 0) {
+            //    Console.WriteLine("Error");
+            //    return;
+            //}
+
+            //while(sum <= num) {
+            //    sum += i;
+            //    i++;
+            //}
+            //Console.WriteLine(sum);
+
+
+
+
+            // ex67.
+            //int num = int.Parse(Console.ReadLine());
+
+            //if(num > 100 || num <= 0) {
+            //    Console.WriteLine("Error");
+            //    return;
+            //}
+
+            //while(num > 0) {
+            //    Console.WriteLine(num);
+            //    num -= 1;
+            //}
+
+
+
+            // ex68.
+            //int num = int.Parse(Console.ReadLine());
+
+            //if (num > 100 || num <= 0) {
+            //    Console.WriteLine("Error");
+            //    return;
+            //}
+
+            //for(int i = 0; i <= num; i++) {
+            //    Console.WriteLine(i);
+            //}
+
+
+
+            // ex69.
+            //int[] input = new int[3];
+
+            //for(int i = 0; i < input.Length; i++) {
+            //    input[i] = int.Parse(Console.ReadLine());
+
+            //    if(input[i] < 0 || input[i] > 100) {
+            //        Console.WriteLine("Error");
+            //        return;
+            //    }
+            //}
+
+            //Console.WriteLine(input[0] + (input[1] * (input[2] - 1)));
+
+
+
+            // ex70.
+            //int[] input = new int[3];
+
+            //for(int i = 0; i < input.Length; i++) {
+            //    input[i] = int.Parse(Console.ReadLine());
+
+            //    if(input[i] > 7 || input[i] < 0) {
+            //        Console.WriteLine("Error");
+            //        return;
+            //    }
+            //}
+
+            //Console.WriteLine(input[0] * Math.Pow(input[1], input[2] - 1));
+
+
+
+
+            // ex71.
+            //Random random = new Random();
+            //int sum = 0;
+            //int num = random.Next(2, 11);
+
+            //for(int i = 0; i < num; i++) {
+            //    // 최소, 최대 정수 (int.MinValue, int.MaxValue)
+            //    int number = random.Next(-100, 100);
+            //    sum += number;
+            //}
+
+            //Console.WriteLine(sum);
+
+
+
+
+            // ex72.
+            //int n = int.Parse(Console.ReadLine());
+            //int[] numbers = new int[n];
+
+            //for(int i = 0; i < n; i++) {
+            //    numbers[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //Array.Sort(numbers);
+
+            //Console.WriteLine(numbers[n - 1]);
+
+
+
+            // ex73.
+            //int[] numbers = new int[24];
+            //int j = 1;
+
+            //for(int i = 0; i < numbers.Length; i++) {
+            //    if(i % 2 == 0) {
+            //        numbers[i] = j;
+            //        j++;
+            //    } else {
+            //        numbers[i] = numbers[i - 1] * 10;
+            //    }
+            //}
+
+            //int k = int.Parse(Console.ReadLine());
+            //int h = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine(numbers[k - 1] + numbers[h - 1]);
+
+
+
+            // ex74.
+            //int n = int.Parse(Console.ReadLine());
+
+            //if(n < 1 || n > 10000) {
+            //    Console.WriteLine("Error");
+            //    return;
+            //}
+
+            //for(int i = 1; i <= n; i++) {
+            //    if(n % i == 0) {
+            //        Console.Write(i + " ");
+            //    }
+            //}
+
+
+
+            // ex75.
+            //List<int> prime = new List<int>();
+
+            //int num = int.Parse(Console.ReadLine());
+
+            //for(int i = 1; i <= num; i++) {
+            //    if(num % i == 0) {
+            //        prime.Add(i);
+            //    }
+            //}
+
+            //// List size = Count
+            //if(prime.Count == 2) {
+            //    Console.WriteLine("prime");
+            //} else {
+            //    Console.WriteLine("not prime");
+            //}
+
+
+
+            // ex76.
+            //int n = int.Parse(Console.ReadLine());
+            //if (n == 0) {
+            //    Console.WriteLine("Error");
+            //    return;
+            //}
+
+            //int k = int.Parse(Console.ReadLine());
+
+            //if(k >= 0) {
+            //    Console.WriteLine(Math.Pow(n, k));
+            //} else {
+            //    Console.WriteLine(1 / Math.Pow(n, -k));
+            //}
+
+
+
+            // ex77.
+            //int n = int.Parse(Console.ReadLine());
+            //int result = 1;
+
+            //if(n < 0 || n > 12) {
+            //    Console.WriteLine("Error");
+            //    return;
+            //}
+
+            //for(int i = n; i > 0; i--) {
+            //   result *= i;
+            //}
+
+            //Console.WriteLine(result);
+
+
+
+            // ex78.
+            List<string> input = new List<string>();
             int i = 0;
-            int lotto_count = 0;
-            int[] lotto = new int[7];
-            int[] numbers = new int[6];
 
-            while (i < lotto.Length) {
-                if (i == 0) {
-                    lotto[i] = random.Next(1, 46);
-                    i++;
-                    continue;
+            while (input[i] == "=") {
+                input[i] = Console.ReadLine();
+
+                if(i %  == 0) {
+                    if(input[i - 1] == "+") {
+
+                    }
                 }
-
-                var value = random.Next(1, 46);
-
-                // 중복 제거
-                if (lotto.Contains(value)) {
-                    continue;
-                } else {
-                    lotto[i] = value;
-                }
-
-                i++;
-            }
-
-            // 값 입력
-            for(int j = 0; j < numbers.Length; j++) {
-                numbers[j] = int.Parse(Console.ReadLine());
-            }
-
-            int[] slicedLotto = lotto.Skip(0).Take(6).ToArray();
-
-            for (int j = 0; j < numbers.Length; j++) {
-                if(slicedLotto.Contains(numbers[j])) {
-                    lotto_count += 1;
-                }
-            }
-
-            if(lotto_count == 6) {
-                Console.WriteLine("1등");
-            } else if(lotto_count == 5) {
-                if(numbers.Contains(lotto[7])) {
-                    Console.WriteLine("2등");
-                } else {
-                    Console.WriteLine("3등");
-                }
-            } else if(lotto_count == 4) {
-                Console.WriteLine("4등");
-            } else if(lotto_count == 3) {
-                Console.WriteLine("5등");
-            } else {
-                Console.WriteLine("꽝!");
             }
         }
     }
