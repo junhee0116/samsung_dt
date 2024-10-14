@@ -2,6 +2,8 @@
 using System.Collections;
 using System.ComponentModel.DataAnnotations;
 using System.Data;
+using System.Linq;
+using System.Diagnostics;
 using System.Runtime.Intrinsics.X86;
 using System.Threading.Tasks.Sources;
 
@@ -11,34 +13,52 @@ namespace Examples.Ex100 {
             // ex01
             //Console.WriteLine("Hello");
 
+
+
             // ex02
             // Console.WriteLine("Hello World");
+
+
 
             // ex03
             // Console.WriteLine("Hello\n\nWorld");
 
+
+
             // ex04
             // Console.WriteLine("'Hello'");
+
+
 
             // ex05
             // Console.WriteLine("\"Hello World\"");
 
+
+
             // ex06
             // Console.WriteLine("C:\\Download\\hello.java");
+
+
 
             // ex07
             // int input;
             // input = int.Parse(Console.ReadLine());
             // Console.WriteLine(input);
 
+
+
             // ex08
             // string input = Console.ReadLine();
             // Console.WriteLine(input);
+
+
 
             // ex09
             // float input;
             // input = float.Parse(Console.ReadLine());
             // Console.WriteLine(input);
+
+
 
             // ex10
             // int a, b;
@@ -46,25 +66,35 @@ namespace Examples.Ex100 {
             // b = int.Parse(Console.ReadLine());
             // Console.WriteLine("{0} {1}", a, b);
 
+
+
             // ex11
             // string a = Console.ReadLine();
             // string b = Console.ReadLine();
             // Console.WriteLine("{1} {0}", a, b);
 
+
+
             // ex12
             // string input = Console.ReadLine();
             // Console.WriteLine(input);
+
+
 
             // ex13
             // float input;
             // input = float.Parse(Console.ReadLine());
             // Console.WriteLine($"{input.ToString("n2")}");
 
+
+
             // ex14
             // int hour, minute;
             // hour = int.Parse(Console.ReadLine());
             // minute = int.Parse(Console.ReadLine());
             // Console.WriteLine("{0}:{1}", hour, minute);
+
+
 
             // ex15
             // int Year = int.Parse(Console.ReadLine());
@@ -76,19 +106,27 @@ namespace Examples.Ex100 {
             //int Num1 = int.Parse(Console.ReadLine());
             //Console.WriteLine(Convert.ToString(Num1, 8));
 
+
+
             // ex17
             //int Num1 = int.Parse(Console.ReadLine());
             //Console.WriteLine(Convert.ToString(Num1, 16));
+
+
 
             // ex18
             //string Str = Console.ReadLine();
             //Console.WriteLine(Convert.ToInt32(Str[0]));
 
+
+
             // ex19
             //int Int = int.Parse(Console.ReadLine());
             //Console.WriteLine(Convert.ToChar(Int));
 
-            //// ex20
+
+
+            // ex20
             //int num1 = int.Parse(Console.ReadLine());
             //int num2 = int.Parse(Console.ReadLine());
             //int num3 = int.Parse(Console.ReadLine());
@@ -98,11 +136,15 @@ namespace Examples.Ex100 {
             //Console.WriteLine(result);
             //Console.WriteLine(string.Format("{0:F1}", (result / 3)));
 
+
+
             // ex21
             //int a = int.Parse(Console.ReadLine());
             //int b = int.Parse(Console.ReadLine());
 
             //Console.WriteLine(a * Math.Pow(2, b));
+
+
 
             // ex22
             //int a = int.Parse(Console.ReadLine());
@@ -114,6 +156,8 @@ namespace Examples.Ex100 {
             //    Console.WriteLine("0");
             //}
 
+
+
             // ex23
             //int a = int.Parse(Console.ReadLine());
             //int b = int.Parse(Console.ReadLine());
@@ -123,6 +167,8 @@ namespace Examples.Ex100 {
             //} else {
             //    Console.WriteLine("0");
             //}
+
+
 
             // ex24
             //int a = int.Parse(Console.ReadLine());
@@ -134,6 +180,8 @@ namespace Examples.Ex100 {
             //    Console.WriteLine("0");
             //}
 
+
+
             // ex25
             //int a = int.Parse(Console.ReadLine());
             //int b = int.Parse(Console.ReadLine());        
@@ -144,16 +192,21 @@ namespace Examples.Ex100 {
             //    Console.WriteLine("0");
             //}
 
+
+
             // ex26
             //bool Bool = bool.Parse(Console.ReadLine());
 
             //Console.WriteLine(!Bool);
+
+
 
             // ex27
             //int a = int.Parse(Console.ReadLine());
             //int b = int.Parse(Console.ReadLine());
 
             //Console.WriteLine(a >= b ? a : b);
+
 
 
             // ex28
@@ -193,6 +246,8 @@ namespace Examples.Ex100 {
             //    }
             //}
 
+
+
             // ex30
             //int num = int.Parse(Console.ReadLine());
 
@@ -211,6 +266,7 @@ namespace Examples.Ex100 {
             //}
 
 
+
             // ex31.
             //int score = int.Parse(Console.ReadLine());
 
@@ -225,6 +281,7 @@ namespace Examples.Ex100 {
             //} else {
             //    Console.WriteLine("범위를 벗어난 숫자입니다");
             //}
+
 
 
             //// ex32.
@@ -247,6 +304,8 @@ namespace Examples.Ex100 {
             //        Console.WriteLine("What?");
             //        break;
             //}
+
+
 
             // ex33.
             //int Month = int.Parse(Console.ReadLine());
@@ -275,6 +334,7 @@ namespace Examples.Ex100 {
             //}
 
 
+
             //// ex34.
             //while(true) {
             //    int num = int.Parse(Console.ReadLine());
@@ -285,6 +345,7 @@ namespace Examples.Ex100 {
             //        Console.WriteLine(num);
             //    }
             //}
+
 
 
             // ex35.
@@ -298,6 +359,8 @@ namespace Examples.Ex100 {
             //}
 
             //Console.WriteLine(sum);
+
+
 
             //// ex36.
             //int N = int.Parse(Console.ReadLine());
@@ -323,6 +386,7 @@ namespace Examples.Ex100 {
             //}
 
 
+
             // ex38.
             //int a = int.Parse(Console.ReadLine());
             //int b = int.Parse(Console.ReadLine());
@@ -330,6 +394,7 @@ namespace Examples.Ex100 {
             //double result = (a * b) / 2;
 
             //Console.WriteLine(string.Format("{0:F1}", result));
+
 
 
             // ex39.
@@ -352,6 +417,7 @@ namespace Examples.Ex100 {
             //}
 
 
+
             // ex40.
             //double n = double.Parse(Console.ReadLine());
 
@@ -361,6 +427,8 @@ namespace Examples.Ex100 {
             //    Console.WriteLine("Lose");
             //}
 
+
+
             // ex41.
             //int n = int.Parse(Console.ReadLine());
 
@@ -369,6 +437,7 @@ namespace Examples.Ex100 {
             //} else {
             //    Console.WriteLine("Lose");
             //}
+
 
 
             // ex42.
@@ -443,6 +512,7 @@ namespace Examples.Ex100 {
             //}
 
 
+
             // ex46.
             //int[] numbers = new int[3];
             //string[] result = new string[3];
@@ -463,7 +533,6 @@ namespace Examples.Ex100 {
 
 
 
-
             // ex47.
             //int year = int.Parse(Console.ReadLine());
 
@@ -472,7 +541,6 @@ namespace Examples.Ex100 {
             //} else {
             //    Console.WriteLine("no");
             //}
-
 
 
 
@@ -518,6 +586,7 @@ namespace Examples.Ex100 {
             //    hour -= 1;
             //    Console.WriteLine($"{hour} : {minute}");
             //}
+
 
 
             // ex50.
@@ -772,6 +841,7 @@ namespace Examples.Ex100 {
             //} else {
             //    Console.WriteLine("꽝!");
             //}
+
 
 
             //// ex60.
@@ -1090,33 +1160,81 @@ namespace Examples.Ex100 {
 
 
             // ex78.
-            List<string> input = new List<string>();
-            List<int> result = new List<int>();
-            int i = 0;
+            //int num1 = int.Parse(Console.ReadLine());
 
-            while(input[i] == "=") {
-                input[i] = Console.ReadLine();
+            //while(true) {
+            //    string sign = Console.ReadLine();
+            //    if(sign == "=") {
+            //        break;
+            //    } else if(sign != "+" && sign != "-" && sign != "*" && sign != "/") {
+            //        Console.WriteLine("Error");
+            //        return;
+            //    }
 
-                if(i % 2 != 0) {
-                    if(input[i] == "+") {
-                        result[i - 1] = int.Parse(input[i - 1]) + int.Parse(input[i + 1]);
-                    } else if(input[i] == "-") {
-                        result[i - 1] = int.Parse(input[i - 1]) - int.Parse(input[i + 1]);
-                    } else if(input[i] == "*") {
-                        result[i - 1] = int.Parse(input[i - 1]) * int.Parse(input[i + 1]);
-                    } else if(input[i] == "/") {
-                        if(int.Parse(input[i + 1]) == 0) {
-                            Console.WriteLine("Error");
-                            return;
-                        } else {
-                            result[i - 1] = int.Parse(input[i - 1]) * int.Parse(input[i + 1]);
-                        }
-                    }
-                }
-                i++;
-            }
+            //    int num2 = int.Parse(Console.ReadLine());
+
+            //    if(sign == "+") {
+            //        num1 += num2;
+            //    } else if(sign == "-") {
+            //        num1 -= num2;
+            //    } else if(sign == "*") {
+            //        num1 *= num2;
+            //    } else if(sign == "/") {
+            //        num1 /= num2;
+            //    }
+            //}
+
+            //Console.WriteLine(num1);
 
 
+
+            // ex79.
+            //string input = Console.ReadLine();
+            //string result = "";
+
+            //for(int i = 0; i < input.Length; i++) {
+            //    if(char.IsLower(input[i])) {
+            //        result += char.ToUpper(input[i]);
+            //    } else {
+            //        result += char.ToLower(input[i]);
+            //    }
+            //}
+
+            //Console.WriteLine(result);
+
+
+
+            // ex80.
+            //string input = Console.ReadLine();
+            //string result = "";
+
+            //for(int i = 0; i < input.Length; i++) {
+            //    if(input[i] == ' ') {
+            //        result += " ";
+            //    } else if((int)input[i] <= 64 || (int)input[i] >= 123) {
+            //        Console.WriteLine("Error");
+            //        return;
+            //    } else if((int)input[i] >= 91 && (int)input[i] <= 96) {
+            //        Console.WriteLine("Error");
+            //        return;
+            //    } else {
+            //        if(((int)input[i] >= 68 && (int)input[i] <= 90) || (int)input[i] >= 100 && (int)input[i] <= 122) {
+            //            char str = Convert.ToChar((int)input[i] - 3);
+            //            result += str;
+            //        } else if((int)input[i] == 65 || (int)input[i] == 97) {
+            //            char str = Convert.ToChar((int)input[i] + 23);
+            //            result += str;
+            //        } else if((int)input[i] == 66 || (int)input[i] == 98) {
+            //            char str = Convert.ToChar((int)input[i] + 21);
+            //            result += str;
+            //        } else if((int)input[i] == 67 || (int)input[i] == 99) {
+            //            char str = Convert.ToChar((int)input[i] + 19);
+            //            result += str;
+            //        }
+            //    }
+            //}
+
+            //Console.WriteLine(result);
 
 
 
@@ -1134,7 +1252,6 @@ namespace Examples.Ex100 {
 
 
 
-
             // ex82.
             //string[] input = Console.ReadLine().Split();
 
@@ -1146,7 +1263,6 @@ namespace Examples.Ex100 {
             //        Console.WriteLine($"{i} * {j} = {i * j}");
             //    }
             //}
-
 
 
 
@@ -1165,6 +1281,225 @@ namespace Examples.Ex100 {
             //for (int i = n; i > 0; i--) {
             //    Console.WriteLine(String.Concat(Enumerable.Repeat("*", i)));
             //}
+
+
+
+            // ex85.
+            //int n = int.Parse(Console.ReadLine());
+            //string result1 = "";
+            //string result2 = "";
+
+            //for(int i = n; i >= 1; i--) {
+            //    for(int j = 0; j < n; j++) {
+            //        result1 = String.Concat(Enumerable.Repeat(" ", j));
+            //    }
+            //    result2 = String.Concat(Enumerable.Repeat("*", i));
+
+            //    Console.WriteLine(String.Concat(result1, result2));
+            //}
+
+
+
+            // ex86.
+            //int n = int.Parse(Console.ReadLine());
+
+            //if(n < 3 || n > 99) {
+            //    Console.WriteLine("Error");
+            //    return;
+            //}
+
+
+
+            // ex88.
+            //int n = int.Parse(Console.ReadLine());
+            //int sum = 0;
+
+            //for(int i = 1; i <= n; i++) {
+            //    for(int j = 1; j <= i; j++) {
+            //        sum += j;
+            //    }
+            //}
+
+            //Console.WriteLine(sum);
+
+
+
+            // ex89.
+            //int k = int.Parse(Console.ReadLine());
+
+            //if(k <= 0 || k > 12) {
+            //    Console.WriteLine("Error");
+            //    return;
+            //}
+
+            //for(int i = 1; i <= 6; i++) {
+            //    for(int j = 1; j <= 6; j++) {
+            //        if(i + j == k) {
+            //            Console.WriteLine($"{i} {k - i}");
+            //        }
+            //    }
+            //}
+
+
+
+            // ex90.
+            //Random random = new Random();
+            //int[] numbers = new int[10];
+
+            //for(int i = 0; i < numbers.Length; i++) {
+            //    int k = random.Next(1, 24);
+            //    Console.WriteLine(k);
+            //    numbers[i] = k;
+            //}
+
+            //for(int i = numbers.Length - 1; i >= 0; i--) {
+            //    Console.Write(numbers[i] + " ");
+            //}
+
+
+
+            // ex91.
+            //int n = int.Parse(Console.ReadLine());
+
+            //if(n < 1 || n > 1000) {
+            //    Console.WriteLine("Error");
+            //    return;
+            //}
+            //int[] numbers = new int[n];
+
+            //for(int i = 0; i < n; i++) {
+            //    numbers[i] = int.Parse(Console.ReadLine());
+            //    if(numbers[i] < 1 || numbers[i] > 1000) {
+            //        Console.WriteLine("Error");
+            //        return;
+            //    }
+            //}
+
+
+            //for(int i = 0; i < n; i++) {
+            //    int cnt = 0;
+            //    for(int j = i; cnt < n ; j++) {
+            //        if(i > j) {
+
+
+            //        }
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+
+            // ex92.
+            //string[] str = new string[10];
+            //int[] numbers = new int[10];
+            //Random random = new Random();
+
+            //str = Console.ReadLine().Split();
+
+            //for(int i = 0; i < str.Length; i++) {
+            //    numbers[i] = int.Parse(str[i]);
+            //}
+
+            //try {
+            //    // 지정된 시간 동안 일시 중단
+            //    Thread.Sleep(5000);
+            //} catch(Exception e) {
+            //    Console.WriteLine(e);
+            //}
+
+            //for(int i = 0; i <= 30; i++) {
+            //    Console.WriteLine("");
+            //}
+
+            //int k = random.Next(1, 11);
+            //Console.Write(k + "번째 숫자는? ");
+
+            //int input = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine(numbers[k - 1]);
+
+
+
+            // ex93.
+            //string[] str = new string[7];
+            //Random random = new Random();
+            //int i = 0;
+
+            //str = Console.ReadLine().Split();
+
+            //try {
+            //    Thread.Sleep(5000);
+            //} catch(Exception e) {
+            //    Console.WriteLine(e);
+            //}
+
+            //while(i < 30) {
+            //    Console.WriteLine();
+            //    i++;
+            //}
+
+            //int k = random.Next(1, 8);
+            //Console.WriteLine(k);
+
+            //string input = Console.ReadLine();
+
+            //Console.WriteLine(str[k - 1]);
+
+
+
+            // ex94.
+            //string str = Console.ReadLine();
+            //int OpenCount = 0;
+            //int CloseCount = 0;
+
+            //for(int i = 0; i < str.Length; i++) {
+            //    if(str[i] == '(') {
+            //        OpenCount += 1;
+            //    } else if(str[i] == ')') {
+            //        CloseCount += 1;
+            //    }
+            //}
+
+            //Console.WriteLine($"{OpenCount} {CloseCount}");
+
+
+
+            // ex95.
+            //string sentence = Console.ReadLine();
+            //int[] Count = new int[26];
+
+            //for(int i = 0; i < sentence.Length; i++) {
+            //    for(int j = 97; j <= 122; j++) {
+            //        if(Convert.ToInt32(sentence[i]) == j) {
+            //            Count[j - 97] += 1;
+            //        }
+            //    }
+            //}
+
+            //for(int i = 0; i < 26; i++) {
+            //    Console.WriteLine($"{Convert.ToChar(i + 97)}: {Count[i]}");
+            //}
+
+
+
+            // ex96.
+            int n = int.Parse(Console.ReadLine());
+            var Student = new Dictionary<string, double>();
+
+
+            if(n < 3 || n > 50) {
+                return;
+            }
+
+            for(int i = 0; i < n; i++) {
+                string name = Console.ReadLine();
+                double grade = double.Parse(Console.ReadLine());
+                Student.Add(name, grade);
+            }
+
+            var Order = Student.OrderByDescending(x => x.Value);
+
+            Console.WriteLine(Order.Keys.ElementAt(2));    
         }
     }
 }
