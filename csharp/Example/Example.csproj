@@ -21,6 +21,7 @@
     <Compile Remove="ex11.cs" />
     <Compile Remove="ex12.cs" />
     <Compile Remove="ex13.cs" />
+    <Compile Remove="ex14.cs" />
     <Compile Remove="Program.cs" />
   </ItemGroup>
 
@@ -36,6 +37,7 @@
     <None Include="ex11.cs" />
     <None Include="ex12.cs" />
     <None Include="ex13.cs" />
+    <None Include="ex14.cs" />
     <None Include="Program.cs" />
   </ItemGroup>
 
