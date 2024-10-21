@@ -58,8 +58,12 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GameObject.cs" />
     <Compile Include="Assets\Distance.cs" />
+    <Compile Include="Assets\Distance3D.cs" />
+    <Compile Include="Assets\GameObjectEx.cs" />
+    <Compile Include="Assets\Vector3EX.cs" />
+    <Compile Include="Assets\Move1.cs" />
+    <Compile Include="Assets\Move2.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

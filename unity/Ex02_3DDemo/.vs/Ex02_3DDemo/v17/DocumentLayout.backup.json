@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "D:\\unity\\Ex02_3DDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5170DCEB-DB92-A314-0127-2979EED79CB9}|Assembly-CSharp.csproj|d:\\unity\\ex02_3ddemo\\assets\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5170DCEB-DB92-A314-0127-2979EED79CB9}|Assembly-CSharp.csproj|solutionrelative:assets\\gameobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5170DCEB-DB92-A314-0127-2979EED79CB9}|Assembly-CSharp.csproj|d:\\unity\\ex02_3ddemo\\assets\\move2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5170DCEB-DB92-A314-0127-2979EED79CB9}|Assembly-CSharp.csproj|solutionrelative:assets\\move2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5170DCEB-DB92-A314-0127-2979EED79CB9}|Assembly-CSharp.csproj|d:\\unity\\ex02_3ddemo\\assets\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5170DCEB-DB92-A314-0127-2979EED79CB9}|Assembly-CSharp.csproj|solutionrelative:assets\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5170DCEB-DB92-A314-0127-2979EED79CB9}|Assembly-CSharp.csproj|D:\\unity\\Ex02_3DDemo\\assets\\distance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5170DCEB-DB92-A314-0127-2979EED79CB9}|Assembly-CSharp.csproj|solutionrelative:assets\\distance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5170DCEB-DB92-A314-0127-2979EED79CB9}|Assembly-CSharp.csproj|D:\\unity\\Ex02_3DDemo\\assets\\gameobjectex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5170DCEB-DB92-A314-0127-2979EED79CB9}|Assembly-CSharp.csproj|solutionrelative:assets\\gameobjectex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5170DCEB-DB92-A314-0127-2979EED79CB9}|Assembly-CSharp.csproj|D:\\unity\\Ex02_3DDemo\\assets\\vector3ex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5170DCEB-DB92-A314-0127-2979EED79CB9}|Assembly-CSharp.csproj|solutionrelative:assets\\vector3ex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5170DCEB-DB92-A314-0127-2979EED79CB9}|Assembly-CSharp.csproj|D:\\unity\\Ex02_3DDemo\\assets\\distance3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5170DCEB-DB92-A314-0127-2979EED79CB9}|Assembly-CSharp.csproj|solutionrelative:assets\\distance3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +39,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameObject.cs",
-              "DocumentMoniker": "D:\\unity\\Ex02_3DDemo\\Assets\\GameObject.cs",
-              "RelativeDocumentMoniker": "Assets\\GameObject.cs",
-              "ToolTip": "D:\\unity\\Ex02_3DDemo\\Assets\\GameObject.cs",
-              "RelativeToolTip": "Assets\\GameObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Title": "Move2.cs",
+              "DocumentMoniker": "D:\\unity\\Ex02_3DDemo\\Assets\\Move2.cs",
+              "RelativeDocumentMoniker": "Assets\\Move2.cs",
+              "ToolTip": "D:\\unity\\Ex02_3DDemo\\Assets\\Move2.cs",
+              "RelativeToolTip": "Assets\\Move2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:30:22.068Z",
+              "WhenOpened": "2024-10-11T02:52:30.373Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Move.cs",
+              "DocumentMoniker": "D:\\unity\\Ex02_3DDemo\\Assets\\Move.cs",
+              "RelativeDocumentMoniker": "Assets\\Move.cs",
+              "ToolTip": "D:\\unity\\Ex02_3DDemo\\Assets\\Move.cs",
+              "RelativeToolTip": "Assets\\Move.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAywDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T01:49:52.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameObjectEx.cs",
+              "DocumentMoniker": "D:\\unity\\Ex02_3DDemo\\Assets\\GameObjectEx.cs",
+              "RelativeDocumentMoniker": "Assets\\GameObjectEx.cs",
+              "ToolTip": "D:\\unity\\Ex02_3DDemo\\Assets\\GameObjectEx.cs",
+              "RelativeToolTip": "Assets\\GameObjectEx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T02:26:10.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Distance.cs",
+              "DocumentMoniker": "D:\\unity\\Ex02_3DDemo\\Assets\\Distance.cs",
+              "RelativeDocumentMoniker": "Assets\\Distance.cs",
+              "ToolTip": "D:\\unity\\Ex02_3DDemo\\Assets\\Distance.cs",
+              "RelativeToolTip": "Assets\\Distance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T02:24:41.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Vector3EX.cs",
+              "DocumentMoniker": "D:\\unity\\Ex02_3DDemo\\Assets\\Vector3EX.cs",
+              "RelativeDocumentMoniker": "Assets\\Vector3EX.cs",
+              "ToolTip": "D:\\unity\\Ex02_3DDemo\\Assets\\Vector3EX.cs",
+              "RelativeToolTip": "Assets\\Vector3EX.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T00:39:01.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Distance3D.cs",
+              "DocumentMoniker": "D:\\unity\\Ex02_3DDemo\\Assets\\Distance3D.cs",
+              "RelativeDocumentMoniker": "Assets\\Distance3D.cs",
+              "ToolTip": "D:\\unity\\Ex02_3DDemo\\Assets\\Distance3D.cs",
+              "RelativeToolTip": "Assets\\Distance3D.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAywCAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T00:33:14.284Z"
             }
           ]
         }

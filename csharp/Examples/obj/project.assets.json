@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\csharp\\Examples\\Examples.csproj",
+      "projectUniqueName": "C:\\Users\\samsung\\Documents\\GitHub\\samsung_dt\\csharp\\Examples\\Examples.csproj",
       "projectName": "Examples",
-      "projectPath": "D:\\csharp\\Examples\\Examples.csproj",
+      "projectPath": "C:\\Users\\samsung\\Documents\\GitHub\\samsung_dt\\csharp\\Examples\\Examples.csproj",
       "packagesPath": "C:\\Users\\samsung\\.nuget\\packages\\",
-      "outputPath": "D:\\csharp\\Examples\\obj\\",
+      "outputPath": "C:\\Users\\samsung\\Documents\\GitHub\\samsung_dt\\csharp\\Examples\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",

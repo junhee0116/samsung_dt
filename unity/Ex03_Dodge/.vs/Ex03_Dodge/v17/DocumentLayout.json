@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\unity\\Ex03_Dodge\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|d:\\unity\\ex03_dodge\\assets\\scripts\\guncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\guncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|D:\\unity\\Ex03_Dodge\\assets\\scripts\\gamemanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|d:\\unity\\ex03_dodge\\assets\\scripts\\bulletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|D:\\unity\\Ex03_Dodge\\assets\\scripts\\soundmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|D:\\unity\\Ex03_Dodge\\assets\\scripts\\eggcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\eggcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|D:\\unity\\Ex03_Dodge\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|D:\\unity\\Ex03_Dodge\\assets\\scripts\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|D:\\unity\\Ex03_Dodge\\assets\\scripts\\eggspawnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\eggspawnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|D:\\unity\\Ex03_Dodge\\assets\\scripts\\itemmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|D:\\unity\\Ex03_Dodge\\assets\\scripts\\bgmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA63E650-1F4E-A8FA-2BC1-BF176D9DBE4B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bgmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BulletController.cs",
+              "DocumentMoniker": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\BulletController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BulletController.cs",
+              "ToolTip": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\BulletController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BulletController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T01:18:19.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GunController.cs",
+              "DocumentMoniker": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\GunController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GunController.cs",
+              "ToolTip": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\GunController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GunController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T01:08:33.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SoundManger.cs",
+              "DocumentMoniker": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\SoundManger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundManger.cs",
+              "ToolTip": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\SoundManger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SoundManger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T03:09:04.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BGManger.cs",
+              "DocumentMoniker": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\BGManger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BGManger.cs",
+              "ToolTip": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\BGManger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BGManger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T02:56:44.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManger.cs",
+              "DocumentMoniker": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\GameManger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManger.cs",
+              "ToolTip": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\GameManger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManger.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAywGAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T02:15:18.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EggSpawnerController.cs",
+              "DocumentMoniker": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\EggSpawnerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EggSpawnerController.cs",
+              "ToolTip": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\EggSpawnerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EggSpawnerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T02:42:03.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ItemManger.cs",
+              "DocumentMoniker": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\ItemManger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemManger.cs",
+              "ToolTip": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\ItemManger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemManger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T01:50:49.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\ItemController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemController.cs",
+              "ToolTip": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\ItemController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T01:17:55.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T00:55:45.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EggController.cs",
+              "DocumentMoniker": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\EggController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EggController.cs",
+              "ToolTip": "D:\\unity\\Ex03_Dodge\\Assets\\Scripts\\EggController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EggController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T00:55:19.567Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
