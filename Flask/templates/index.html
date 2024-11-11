@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bootstrap Charts Template | PrepBootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="/static/bootstrap/css/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/static/font-awesome/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="/static/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/static/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+<div class="page-header">
+    <h1>IOT</h1>
+</div>
+
+<!-- Bootstrap Charts - START -->
+<div class="container">
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3>조도센서</h3>
+            </div>
+            <div class="panel-body">
+                <div id="chart1"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3>초음파센서</h3>
+            </div>
+            <div class="panel-body">
+                <div id="chart2"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- you need to include the shieldui css and js assets in order for the charts to work -->
+<link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css" />
+<script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+
+<script type="text/javascript">
+    var data1 = {{data1}};
+    var data2 = {{data2}};
+    jQuery(function ($) {
+        $("#chart1").shieldChart({
+            exportOptions: {
+                image: false,
+                print: false
+            },
+            axisY: {
+                title: {
+                    text: "Break-Down for selected quarter"
+                }
+            },
+            dataSeries: [{
+                seriesType: "line",
+                data: data1
+            }]
+        });
+
+        $("#chart2").shieldChart({
+            exportOptions: {
+                image: false,
+                print: false
+            },
+            axisY: {
+                title: {
+                    text: "Break-Down for selected quarter"
+                }
+            },
+            dataSeries: [{
+                seriesType: "line",
+                data: data2
+            }]
+        });
+    });
+</script>
+<!-- Bootstrap Charts - END -->
+
+</div>
+
+</body>
+</html>
