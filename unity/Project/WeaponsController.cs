@@ -3,9 +3,10 @@ using UnityEngine;
 public class WeaponsController : MonoBehaviour {
     public GameObject weaponPrefab; // 무기 프리팹
     public Transform attachPoint;  // 무기를 붙일 위치 (WeaponAttachPoint)
-
+    public PlayerController player;
     private GameObject currentWeapon; // 현재 장착된 무기
-    public Camera playerCamera;
+
+
 
     private void Update() {
         if(Input.GetButtonDown("Fire1")) {
@@ -14,8 +15,9 @@ public class WeaponsController : MonoBehaviour {
     }
 
     void Shoot() {
-
+        player.Damage();
     }
+
     public void EquipWeapon() {
         if(currentWeapon != null) {
             Destroy(currentWeapon); // 기존 무기 제거
